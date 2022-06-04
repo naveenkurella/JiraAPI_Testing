@@ -17,6 +17,7 @@ public class AddComment {
 		System.out.println("Test test");
 		System.out.println("Test test");
 		System.out.println("Test test");
+		System.out.println("develop develop");
 		RestAssured.baseURI = "http://localhost:8080";
 		SessionFilter filter=new SessionFilter();
 		String response = given().log().all().header("Content-Type", "application/json")
