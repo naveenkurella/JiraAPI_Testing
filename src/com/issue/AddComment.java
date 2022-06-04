@@ -13,6 +13,7 @@ public class AddComment {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int a=10;
 		RestAssured.baseURI = "http://localhost:8080";
 		SessionFilter filter=new SessionFilter();
 		String response = given().log().all().header("Content-Type", "application/json")
